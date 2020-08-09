@@ -7,16 +7,16 @@
   "dependencies": {
     "ace-builds": "^1.2.8",
     "big-integer": "^1.6.25",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "bootswatch": "^3.3.7",
     "bowser": "^1.7.3",
     "dateformat": "^2.0.0",
     "font-awesome": "^4.7.0",
     "golden-layout": "^1.5.9",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jstree": "^3.3.4",
     "kaitai-struct": "next",
-    "kaitai-struct-compiler": "^0.8.0-SNAPSHOT.20180126.2450",
+    "kaitai-struct-compiler": "next",
     "localforage": "^1.5.0",
     "pako": "^1.0.6",
     "require-from-string": "^1.2.1",
@@ -28,12 +28,13 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
+    "express": "^4.17.1",
     "tslint": "^5.7.0",
-    "typescript": "^2.5.2"
+    "typescript": "^2.9.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "python vendor_build.py"
+    "install": "node vendor_build.js"
   },
   "repository": {
     "type": "git",
